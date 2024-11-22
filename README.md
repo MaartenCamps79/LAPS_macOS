@@ -14,18 +14,14 @@ Key features of the script include:
 
 This script is particularly useful for IT administrators who need to manage multiple macOS devices and ensure that each has a secure local admin account.
 
-/**
- * This function requires the following prerequisites:
- * 
+ ## This function requires the following prerequisites:
+ 
  * 1. **Key Vault**: Ensure you have an Azure Key Vault set up to store and manage secrets.
  * 2. **App Registration**: Register an application in Azure AD with the correct permissions to access the Key Vault.
  *    - Required permissions: `Key Vault Secrets User` or `Key Vault Secrets Officer`.
- * 3. **Homebrew**: Install Homebrew package manager on your system. You can install it from [Homebrew's official website](https://brew.sh/).
+ * 3. **Homebrew**: Install Homebrew package manager on your system. You can install it from [Homebrew's official website](https://brew.sh/). This is already covered in the script
  * 4. **jq**: Install `jq` for processing JSON data. You can install it using Homebrew:
- *    ```sh
- *    brew install jq
- *    ```
- */
+ *    brew install jq. This is already taken care of in the script
 
 ## Deployment and Scheduling in Intune
 
