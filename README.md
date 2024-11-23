@@ -2,6 +2,8 @@
 
 In the absence of a Local Administrator Password Solution (LAPS) for macOS within Microsoft Intune, this project was conceived to provide a secure and automated alternative. The `CreateLAPSAdmin.sh` script addresses the need for a robust solution to manage local admin accounts on macOS devices, ensuring that each account is created with a unique, randomized password and stored securely in Azure KeyVault. This approach enhances security and simplifies the management of local admin accounts across multiple macOS.
 
+[LapsFormacOS]()
+
 ## Summary
 
 The `CreateLAPSAdmin.sh` script is designed to create a Local Administrator Password Solution (LAPS) admin account on macOS systems. This script automates the process of setting up a secure local admin account with a randomized passwordwhich is stored in a Azure KeyVault. It ensures that the local admin account adheres to security best practices, reducing the risk of unauthorized access.
